@@ -3,4 +3,7 @@ I did the Python Challenge of Platzi, an good course to learn the basics of Pyth
 
 ## Glosario:
 ### Coin Converter
+A simple conversor of money
+### Guess the Number
+Can you find the correct number in less than three attempts? Good luck!
 

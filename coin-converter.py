@@ -50,3 +50,33 @@ elif opcion == 3:
     print('Tienes $' + dolares)
 else:
     print('Ops! Intente nuevamente')
+
+# other version
+def conver(pesos, dolar):
+    dolares = pesos / dolar
+    dolares = round(dolares, 2)
+    dolares = str(dolares)
+    print('Tienes $' + dolares)
+    return(dolares)
+
+menu = """
+Bienvenido al conversor de monedas ($)
+
+1 - Pesos colombianos
+2 - Pesos argentinos
+3 - Pesos mexicanos
+
+Elige una opción: 
+"""
+
+# return regresa el resultado de una función. las funciones deben estar definidas antes del codigo y antes de invocarlas
+opcion = int(input(menu))
+
+if opcion == 1:
+    conver(float(input('¿Cuantos pesos colombianos tienes?: ')), 3875)
+elif opcion == 2:
+    conver(float(input('¿Cuantos pesos argentinos tienes?: ')), 200)
+elif opcion == 3:
+    conver(float(input('¿Cuantos pesos mexicanos tienes?: ')), 38)
+else:
+    print('Ops! Intente nuevamente')
