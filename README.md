@@ -8,3 +8,5 @@ A simple conversor of money
 Can you find the correct number in less than three attempts? Good luck!
 ### Palindromo
 If the word or phrase can be read in both directions, it's a palindrome!
+
+proximamente agregaré un archivo con pequeños apuntes
